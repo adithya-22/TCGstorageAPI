@@ -1,0 +1,13 @@
+version: '3.3'
+services:
+  tcgstorageapi-centos-python3.6-dev:
+    image: tcgstorageapi-centos
+    privileged: true
+    volumes:
+      - type: bind
+        source: ../TCGstorageAPI
+        target: /usr/lib64/python3.6/site-packages/TCGstorageAPI
+      - type: bind
+        source: ../.
+        target: /usr/src/TCGStorageAPI
+    tty: true
