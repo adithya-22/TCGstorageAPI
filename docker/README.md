@@ -1,4 +1,4 @@
-For development environments use this provided docker-compose.yml file to run the code in a docker container. The files in your source directory on your host system will be bind mounted into the container's /usr/lib64/python2.7/site-packages/TCGStorageAPI directory
+For development environments use this provided docker-compose.yml file to run the code in a docker container. The files in your source directory on your host system will be bind mounted into the container's /usr/lib64/python3.6/site-packages/TCGStorageAPI directory
 
 THIS IS TO BE RUN AT THE TOP LEVEL SOURCE PROJECT DIRECTORY FOR IT TO WORK Files that you edit in your source project directory will be used by the container that you started.
 
